@@ -34,6 +34,12 @@ To get started with the AI Summarizer, follow these steps:
    npm install
    ```
 
+   Before proceeding to the next step, please make sure to create a RapidAPI key for the Article Extractor and Summarizer API on RapidAPI's website. Once you have the key, you'll need to save it as an environment variable in a `.env` file in the project root directory.
+
+   ```plaintext
+   VITE_RAPID_API_ARTICLE_KEY=your-rapidapi-key-here
+   ```
+
 4. **Run the App**: After successfully installing the dependencies, you can run the AI Summarizer locally using the following command:
 
    ```bash
